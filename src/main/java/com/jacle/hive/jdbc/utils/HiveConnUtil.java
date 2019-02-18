@@ -1,12 +1,8 @@
 package com.jacle.hive.jdbc.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sun.org.apache.xml.internal.security.Init;
-import org.apache.directory.shared.kerberos.codec.apReq.actions.StoreTicket;
-import org.codehaus.jettison.json.JSONString;
 
 import java.io.IOException;
-import java.net.URL;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
