@@ -44,6 +44,7 @@ public class LogOutputFormat extends TextOutputFormat implements HiveOutputForma
         @Override
         public void write(Writable wr) throws IOException {
             String destStr=wr.toString();
+            destStr=destStr.toUpperCase();
             out.write(destStr.getBytes(),0,destStr.length());
 
         }
