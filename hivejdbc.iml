@@ -131,7 +131,6 @@
     <orderEntry type="library" name="Maven: org.apache.derby:derby:10.10.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.datanucleus:datanucleus-api-jdo:3.2.6" level="project" />
     <orderEntry type="library" name="Maven: org.datanucleus:datanucleus-rdbms:3.2.9" level="project" />
-    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
     <orderEntry type="library" name="Maven: javax.jdo:jdo-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
@@ -172,5 +171,14 @@
     <orderEntry type="library" name="Maven: apache-log4j:log4j:1.2.8" level="project" />
     <orderEntry type="library" name="Maven: com.opencsv:opencsv:3.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-avro:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-column:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-common:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-encoding:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.htrace:htrace-core4:4.0.1-incubating" level="project" />
   </component>
 </module>

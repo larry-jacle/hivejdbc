@@ -7,6 +7,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -26,7 +27,7 @@ public class MrBase {
     public static void main(String[] args) throws Exception
     {
         Configuration conf=new Configuration();
-        Job job=Job.getInstance(conf);
+        Job job= Job.getInstance(conf);
 
         //通过GenericOptionParser来解析参数
         //直接通过args来获取是不对的
