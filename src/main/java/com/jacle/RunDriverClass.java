@@ -1,6 +1,7 @@
 package com.jacle;
 
 import com.jacle.hive.jdbc.CreateOrcFile;
+import com.jacle.mr.DBMr;
 import com.jacle.mr.MrBase;
 import com.jacle.mr.WordCount;
 import com.jacle.parquet.MRParquet;
@@ -17,6 +18,7 @@ public class RunDriverClass
             programDriver.addClass("mrbase", MrBase.class,"mrbase");
             programDriver.addClass("createorcfile", CreateOrcFile.class,"createorcfile");
             programDriver.addClass("parquet", MRParquet.class,"mrParquet");
+            programDriver.addClass("dbReader", DBMr.class,"dbmr");
 
             exitCode=programDriver.run(args);
         } catch (Throwable throwable) {
